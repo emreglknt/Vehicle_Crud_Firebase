@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "475564250913",
+    "project_id": "fir-crudrealtimecar",
+    "storage_bucket": "fir-crudrealtimecar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475564250913:android:d7f22a1a0c2b7e5a37d060",
+        "android_client_info": {
+          "package_name": "com.example.adminpanel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOYuOgZRfWyVaNfEleIu3g044Wbzymts4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475564250913:android:204f522b66a23a6d37d060",
+        "android_client_info": {
+          "package_name": "com.example.firebasecrudrealtimecar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOYuOgZRfWyVaNfEleIu3g044Wbzymts4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

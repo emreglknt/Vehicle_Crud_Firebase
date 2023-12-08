@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@color/yellow"
+
+    tools:context=".CreateActivity">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/editlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp">
+
+
+
+
+        <EditText
+            android:id="@+id/vehicleOwnerName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/border"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:hint="Owner name"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/purple"
+            android:maxLength="15"
+            android:imeOptions="actionNext"/>
+
+        <EditText
+            android:id="@+id/vehicleBrand"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/border"
+            android:layout_marginTop="20dp"
+            android:padding="16dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:hint="Vehicle brand"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/black"
+            android:maxLength="15"/>
+
+        <EditText
+            android:id="@+id/vehicleRTO"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/border"
+            android:layout_marginTop="20dp"
+            android:padding="16dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:hint="Vehicle RTO"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/black"
+            android:maxLength="15"/>
+
+        <EditText
+            android:id="@+id/vehNumber"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/border"
+            android:layout_marginTop="20dp"
+            android:padding="16dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:hint="Vehicle serial number"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/black"
+            android:maxLength="15"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
